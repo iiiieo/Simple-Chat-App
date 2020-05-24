@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#msg-container{
+  height: calc(100vh - 50px - 5%);
+}
+
+#send-container{
+  position: fixed;
+  bottom: 5%;
+  left: 10%;
+  width: 80%;
+  height: 50px;
+}
+#msg-input{
+  height: 100%;
+  width: 89%;
+}
+#send-button{
+  height: 100%;
+  width: 10%;
+  background-color: #111;
+  color: #fff;
+}
+p.own-chat-msg{
+}
+p.chat-msg {
+    background-color: #ddd;
+}
+p.user-connected {
+    background-color: #aaffaa;
+}
+p.user-disconnected {
+    background-color: #ffaaaa;
+}
